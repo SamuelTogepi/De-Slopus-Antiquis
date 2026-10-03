@@ -24,7 +24,7 @@ export TARGETS ?= iBoot64
 all: $(TARGETS)
 
 iBoot64:
-	@echo Building 64-bit ARMv8 target iBoot64 (A9-A10X)
+	@echo "Building 64-bit ARMv8 target iBoot64 - A9 through A10X"
 	@$(MAKE) -C targets/iBoot64
 
 clean:
